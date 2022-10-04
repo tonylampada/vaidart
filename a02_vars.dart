@@ -39,7 +39,8 @@ void main() {
     astring2 = 'outra string';
     print('astring2 ${astring2} (agora sim)');
 
-    String? astring3 = null;
+    String? astring3 = null; // ? = aceita null
     print('astring3 ${astring3}');
 
+    // A proposito. Saporra é compilada. Um erro aqui de compilação embaixo previne a execução inteira.
 }
